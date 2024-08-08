@@ -26,7 +26,7 @@ function ShoppingCart() {
 
       {cartQuantity === 0 ? (
         <div className="flex flex-col items-center justify-center gap-6 py-4">
-          <img src="/assets/images/illustration-empty-cart.svg" alt="" />
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
           <p className="font-semibold text-rose-500">
             Your added items will appear here
           </p>
@@ -85,7 +85,7 @@ function ShoppingCart() {
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 rounded-lg bg-rose-50 p-4">
-            <img src="/assets/images/icon-carbon-neutral.svg" alt="" />
+            <img src="assets/images/icon-carbon-neutral.svg" alt="" />
             <p className="text-sm text-rose-900">
               This is a{" "}
               <strong className="font-semibold">carbon-neutral</strong> delivery

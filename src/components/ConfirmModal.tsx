@@ -14,7 +14,7 @@ function ConfirmModal({
     <section className="absolute left-0 top-0 h-full w-full bg-overlay">
       <div className="fixed bottom-0 left-0 flex h-max w-full flex-col gap-6 rounded-t-xl bg-white px-6 py-8 md:bottom-1/2 md:left-1/2 md:max-w-[590px] md:-translate-x-1/2 md:translate-y-1/2 md:rounded-xl">
         <img
-          src="/assets/images/icon-order-confirmed.svg"
+          src="assets/images/icon-order-confirmed.svg"
           alt=""
           className="self-start"
         />

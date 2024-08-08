@@ -43,7 +43,7 @@ function StoreItem({ image, name, category, price, id }: StoreItemProps) {
               }
               className="flex min-w-max items-center justify-center gap-2 rounded-full border-[1px] border-rose-300 bg-white px-6 py-3 text-rose-900 shadow-lg transition-all hover:border-red hover:text-red md:px-4 md:py-2"
             >
-              <img src="/assets/images/icon-add-to-cart.svg" alt="" />
+              <img src="assets/images/icon-add-to-cart.svg" alt="" />
               <span className="text-sm font-semibold">Add to Cart</span>
             </button>
           ) : (
