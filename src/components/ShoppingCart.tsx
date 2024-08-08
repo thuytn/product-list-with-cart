@@ -19,7 +19,7 @@ function ShoppingCart() {
   };
 
   return (
-    <section className="no-scrollbar flex flex-col gap-2 rounded-lg bg-white p-6 md:max-h-screen md:w-[325px] md:self-start md:overflow-y-scroll xl:w-[385px] xl:p-8">
+    <section className="flex flex-col gap-2 rounded-lg bg-white p-6 md:max-h-screen md:w-[325px] md:self-start xl:w-[385px] xl:p-8">
       <h1 className="text-2xl font-bold text-red xl:text-3xl">
         Your Cart <span>({cartQuantity})</span>
       </h1>
